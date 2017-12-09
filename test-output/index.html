@@ -2,9 +2,10 @@
 
 <html>
   <head>
+  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -37,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>D:\Naveen_Work\Selenium_work\MavenSelTest\src\test\java\com\maven\selenium\testng.xml</span>
+                    <span>C:\Users\Navin\AppData\Local\Temp\testng-eclipse--1899252959\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">6 methods,  1 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testscripts.LoginPageTest" hash-for-method="loginTest({Details=test, TestCase=Null data, Password=, Runmode=No, UserName=, TCID=TC3})">loginTest({Details=test, TestCase=Null data, Password=, Runmode=No, UserName=, TCID=TC3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +116,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maven.selenium.SecondTest" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testscripts.LoginPageTest" hash-for-method="ScenarioTest({TestCase=valid Login data, Min_Bid=1, SubTitle=navs_subbook, TCID=TC1, Runmode=Yes, UserName=surend...)">ScenarioTest({TestCase=valid Login data, Min_Bid=1, SubTitle=navs_subbook, TCID=TC1, Runmode=Yes, UserName=surend...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.maven.selenium.SecondTest" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testscripts.LoginPageTest" hash-for-method="loginTest({Details=test, TestCase=Null username , Password=kiranmayee, Runmode=Yes, UserName=, TCID=TC5})">loginTest({Details=test, TestCase=Null username , Password=kiranmayee, Runmode=Yes, UserName=, TCID=TC5})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testscripts.LoginPageTest" hash-for-method="loginTest({Details=test, TestCase=valid Login data, Password=testing, Runmode=Yes, UserName=surendra, TCID=TC1...)">loginTest({Details=test, TestCase=valid Login data, Password=testing, Runmode=Yes, UserName=surendra, TCID=TC1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testscripts.LoginPageTest" hash-for-method="loginTest({Details=test, TestCase=invalid data, Password=sreelatha, Runmode=Yes, UserName=kiranmayeereddy, TCI...)">loginTest({Details=test, TestCase=invalid data, Password=sreelatha, Runmode=Yes, UserName=kiranmayeereddy, TCI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testscripts.LoginPageTest" hash-for-method="loginTest({Details=test, TestCase=Null password, Password=, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC4})">loginTest({Details=test, TestCase=Null password, Password=, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC4})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,24 +151,95 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.maven.selenium.SecondTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.testscripts.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="loginTest({Details=test, TestCase=Null data, Password=, Runmode=No, UserName=, TCID=TC3})">
+                  </a> <!-- loginTest({Details=test, TestCase=Null data, Password=, Runmode=No, UserName=, TCID=TC3}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({Details=test, TestCase=Null data, Password=, Runmode=No, UserName=, TCID=TC3})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test case as rumode is set to false. TestcaseID:TC3
+	at com.testscripts.LoginPageTest.loginTest(LoginPageTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testscripts.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScenarioTest({TestCase=valid Login data, Min_Bid=1, SubTitle=navs_subbook, TCID=TC1, Runmode=Yes, UserName=surend...)">
+                  </a> <!-- ScenarioTest({TestCase=valid Login data, Min_Bid=1, SubTitle=navs_subbook, TCID=TC1, Runmode=Yes, UserName=surend...) -->
+                  <span class="method-name">ScenarioTest</span>
+                  <span class="parameters">({TestCase=valid Login data, Min_Bid=1, SubTitle=navs_subbook, TCID=TC1, Runmode=Yes, UserName=surendra, Title=navs_book, Password=testing, Desc=book about selenium})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test2">
-                  </a> <!-- test2 -->
-                  <span class="method-name">test2</span>
+                  <a name="loginTest({Details=test, TestCase=Null username , Password=kiranmayee, Runmode=Yes, UserName=, TCID=TC5})">
+                  </a> <!-- loginTest({Details=test, TestCase=Null username , Password=kiranmayee, Runmode=Yes, UserName=, TCID=TC5}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({Details=test, TestCase=Null username , Password=kiranmayee, Runmode=Yes, UserName=, TCID=TC5})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({Details=test, TestCase=valid Login data, Password=testing, Runmode=Yes, UserName=surendra, TCID=TC1...)">
+                  </a> <!-- loginTest({Details=test, TestCase=valid Login data, Password=testing, Runmode=Yes, UserName=surendra, TCID=TC1...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({Details=test, TestCase=valid Login data, Password=testing, Runmode=Yes, UserName=surendra, TCID=TC1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({Details=test, TestCase=invalid data, Password=sreelatha, Runmode=Yes, UserName=kiranmayeereddy, TCI...)">
+                  </a> <!-- loginTest({Details=test, TestCase=invalid data, Password=sreelatha, Runmode=Yes, UserName=kiranmayeereddy, TCI...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({Details=test, TestCase=invalid data, Password=sreelatha, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({Details=test, TestCase=Null password, Password=, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC4})">
+                  </a> <!-- loginTest({Details=test, TestCase=Null password, Password=, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC4}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({Details=test, TestCase=Null password, Password=, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC4})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,16 +247,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Naveen_Work\Selenium_work\MavenSelTest\src\test\java\com\maven\selenium\testng.xml</span>
+            <span class="header-content">C:\Users\Navin\AppData\Local\Temp\testng-eclipse--1899252959\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.maven.selenium.SecondTest&quot;/&gt;
+      &lt;class name=&quot;com.testscripts.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -195,20 +296,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test1')
-data.setCell(0, 2, 'com.maven.selenium.SecondTest')
-data.setCell(0, 3, 10815);
+data.setCell(0, 1, 'ScenarioTest')
+data.setCell(0, 2, 'com.testscripts.LoginPageTest')
+data.setCell(0, 3, 14651);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test2')
-data.setCell(1, 2, 'com.maven.selenium.SecondTest')
-data.setCell(1, 3, 8586);
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.testscripts.LoginPageTest')
+data.setCell(1, 3, 1907);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.testscripts.LoginPageTest')
+data.setCell(2, 3, 1315);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'com.testscripts.LoginPageTest')
+data.setCell(3, 3, 1271);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'com.testscripts.LoginPageTest')
+data.setCell(4, 3, 1263);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'com.testscripts.LoginPageTest')
+data.setCell(5, 3, 462);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -234,15 +351,39 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.maven.selenium.SecondTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test1</span>
+              <div class="chronological-class-name">com.testscripts.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ScenarioTest({TestCase=valid Login data, Min_Bid=1, SubTitle=navs_subbook, TCID=TC1, Runmode=Yes, UserName=surend...)</span>
+                <span class="method-start">8206 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">test2</span>
-                <span class="method-start">10828 ms</span>
+                <span class="method-name">loginTest({Details=test, TestCase=valid Login data, Password=testing, Runmode=Yes, UserName=surendra, TCID=TC1...)</span>
+                <span class="method-start">23018 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({Details=test, TestCase=invalid data, Password=sreelatha, Runmode=Yes, UserName=kiranmayeereddy, TCI...)</span>
+                <span class="method-start">24927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({Details=test, TestCase=Null data, Password=, Runmode=No, UserName=, TCID=TC3})</span>
+                <span class="method-start">26244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({Details=test, TestCase=Null password, Password=, Runmode=Yes, UserName=kiranmayeereddy, TCID=TC4})</span>
+                <span class="method-start">26708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest({Details=test, TestCase=Null username , Password=kiranmayee, Runmode=Yes, UserName=, TCID=TC5})</span>
+                <span class="method-start">27981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29246 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
