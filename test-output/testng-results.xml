@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29866" started-at="2017-12-09T05:22:57Z" finished-at="2017-12-09T05:23:26Z">
+  <suite name="Default suite" duration-ms="28982" started-at="2017-12-09T05:31:23Z" finished-at="2017-12-09T05:31:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29866" started-at="2017-12-09T05:22:57Z" finished-at="2017-12-09T05:23:26Z">
+    <test name="Default test" duration-ms="28982" started-at="2017-12-09T05:31:23Z" finished-at="2017-12-09T05:31:52Z">
       <class name="com.testscripts.LoginPageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="init" is-config="true" duration-ms="7993" started-at="2017-12-09T10:52:57Z" finished-at="2017-12-09T10:53:05Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="init" is-config="true" duration-ms="6296" started-at="2017-12-09T11:01:23Z" finished-at="2017-12-09T11:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="ScenarioTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="ScenarioTest" duration-ms="14651" started-at="2017-12-09T10:53:05Z" data-provider="getHomeData" finished-at="2017-12-09T10:53:19Z">
+        <test-method status="PASS" signature="ScenarioTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="ScenarioTest" duration-ms="15283" started-at="2017-12-09T11:01:29Z" data-provider="getHomeData" finished-at="2017-12-09T11:01:45Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ScenarioTest -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1907" started-at="2017-12-09T10:53:20Z" data-provider="getLoginData" finished-at="2017-12-09T10:53:22Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="2019" started-at="2017-12-09T11:01:45Z" data-provider="getLoginData" finished-at="2017-12-09T11:01:47Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1315" started-at="2017-12-09T10:53:22Z" data-provider="getLoginData" finished-at="2017-12-09T10:53:23Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1322" started-at="2017-12-09T11:01:47Z" data-provider="getLoginData" finished-at="2017-12-09T11:01:48Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="462" started-at="2017-12-09T10:53:23Z" data-provider="getLoginData" finished-at="2017-12-09T10:53:23Z">
+        <test-method status="SKIP" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="469" started-at="2017-12-09T11:01:48Z" data-provider="getLoginData" finished-at="2017-12-09T11:01:49Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1271" started-at="2017-12-09T10:53:23Z" data-provider="getLoginData" finished-at="2017-12-09T10:53:25Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1348" started-at="2017-12-09T11:01:49Z" data-provider="getLoginData" finished-at="2017-12-09T11:01:50Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1263" started-at="2017-12-09T10:53:25Z" data-provider="getLoginData" finished-at="2017-12-09T10:53:26Z">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="loginTest" duration-ms="1274" started-at="2017-12-09T11:01:50Z" data-provider="getLoginData" finished-at="2017-12-09T11:01:51Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="tearDown" is-config="true" duration-ms="610" started-at="2017-12-09T10:53:26Z" finished-at="2017-12-09T10:53:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testscripts.LoginPageTest@6d00a15d]" name="tearDown" is-config="true" duration-ms="614" started-at="2017-12-09T11:01:51Z" finished-at="2017-12-09T11:01:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
