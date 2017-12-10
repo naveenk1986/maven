@@ -34,6 +34,7 @@ public class LoginPageTest extends TestBase {
 		if(data.get("Runmode").equalsIgnoreCase("NO"))
 			throw new SkipException("Skipping the test case as rumode is set to false. TestcaseID:" + data.get("TCID"));
 		loginPage.validateLogin(data.get("UserName"), data.get("Password"));
+		System.out.println("successfully executed the first test case");
 	}
 	@Test(dataProvider="getHomeData")
 	public void ScenarioTest(Hashtable<String, String> data) throws InterruptedException {
@@ -46,7 +47,7 @@ public class LoginPageTest extends TestBase {
 		loginPage.doLogin(data.get("UserName"), data.get("Password"));
 		home.sell_an_itm(data.get("Title"), data.get("SubTitle"),data.get("Desc"), data.get("Min_Bid"));
 		home.logout_Link.click();
-		System.out.println("successfully executed the new test case");
+		System.out.println("successfully executed the second test case");
 	}
 }
 
