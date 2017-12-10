@@ -46,6 +46,7 @@ public class LoginPageTest extends TestBase {
 		loginPage.doLogin(data.get("UserName"), data.get("Password"));
 		home.sell_an_itm(data.get("Title"), data.get("SubTitle"),data.get("Desc"), data.get("Min_Bid"));
 		home.logout_Link.click();
+		System.out.println("successfully executed the new test case");
 	}
 }
 
